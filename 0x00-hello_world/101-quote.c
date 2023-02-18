@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * maim - print a message without printf and puts funtions
  * Return: 0 success
