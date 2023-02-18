@@ -2,10 +2,10 @@
 #include <unistd.h>
 /**
  * main - print a message without printf and puts funtions
- * Return: 0 success
+ * Return: 0 (failure)
  */
 int main(void)
 {
-fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 return (1);
 }
